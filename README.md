@@ -1,1 +1,1 @@
-# practice-postgres-07jan25
+# [07 jan 25](https://github.com/nitin-singla/practice-postgres-07jan25/blob/main/exercises/ex1.md)
