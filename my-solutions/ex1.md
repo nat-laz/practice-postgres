@@ -1,4 +1,5 @@
 ## Exercises
+
 ### Basic Queries
 
 ```sql
@@ -49,8 +50,17 @@ FROM employees
 WHERE department != 'Marketing';
 
 -- 4. Create a column showing TRUE if employee salary is above department average, FALSE otherwise
-WIP
+SELECT e.name,
+       e.department,
+       e.salary,
+       d.dept_name,
+       e.salary > (SELECT AVG(salary)
+                   FROM employees e_sub
+                   WHERE e_sub.dept_id = e.dept_id) AS is_above_avg
+FROM employees e
+         JOIN departments d ON e.dept_id = d.dept_id;
 ```
+
 
 
 ### Aggregation

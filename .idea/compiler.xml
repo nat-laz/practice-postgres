@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="practice-postgres-07jan25" />
+        <module name="db-practice" />
       </profile>
     </annotationProcessing>
   </component>
