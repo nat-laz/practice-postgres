@@ -1,2 +1,3 @@
 #### [07 jan 25: Recap PostgreSQL](https://github.com/nitin-singla/practice-postgres-07jan25/blob/main/exercises/ex1.md)
 #### [08 jan 25: PostgreSQL LEFT(), RIGHT(), POSITION(), SUBSTRING(),  SPLIT_PART(), CONCAT(), LENGHT()](https://github.com/nitin-singla/practice-postgres-07jan25/blob/main/exercises/ex2.md)
+#### [9 jan 25: Date/Time Functions Practice](https://github.com/nitin-singla/practice-postgres-07jan25/blob/main/exercises/ex3.md)
